@@ -12,6 +12,9 @@ class TestLogin(BaseTest):
         self.LoginPage = LoginPage(driver=self.driver)
         title = self.LoginPage.get_title_of_LoginPage(TestData.Login_page_title)
         assert title == TestData.Login_page_title
+        print("Page title verified successfully")
+        print("Page title verified successfully2")
+        print("Page title verified successfully3")
 
 
     def test_login(self):
