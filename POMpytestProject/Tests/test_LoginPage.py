@@ -15,6 +15,8 @@ class TestLogin(BaseTest):
         print("Page title verified successfully")
         print("Page title verified successfully2")
         print("Page title verified successfully3")
+        print("Page title verified successfully4")
+        print("Page title verified successfully5")
 
 
     def test_login(self):
