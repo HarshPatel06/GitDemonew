@@ -17,7 +17,5 @@ class TestLogin(BaseTest):
     def test_login(self):
         self.LoginPage = LoginPage(driver=self.driver)
         self.LoginPage.perform_Login(TestData.user_name, TestData.password)
-
-
-
-        
+        print("User logged in successfully into ENT portal")
+        print("Home Page opened successfully")
