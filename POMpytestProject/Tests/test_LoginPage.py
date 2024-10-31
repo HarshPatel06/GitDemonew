@@ -19,3 +19,5 @@ class TestLogin(BaseTest):
         self.LoginPage.perform_Login(TestData.user_name, TestData.password)
         print("User logged in successfully into ENT portal")
         print("Home Page opened successfully")
+        print("Home Page opened successfully 2")
+        print("Home Page opened successfully 3")
